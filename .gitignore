@@ -1,0 +1,6 @@
+/**/build/
+/**/__pycache__
+*.nrrd
+*.nii.gz
+/examples/.ipynb_checkpoints
+.DS_Store
