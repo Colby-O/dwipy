@@ -2,11 +2,7 @@ import os
 import sys
 import numpy as np
 
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(os.path.dirname(currentdir))
-sys.path.append(parentdir)
-
-import dwipy.core.imageSrc as imageSrc
+import dwipySrc as imageSrc
 from dwipy.core.image2D import Image2D
 from dwipy.misc.funcHelper import FuncHelpers
      

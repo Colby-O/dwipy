@@ -2,10 +2,6 @@ import sys
 import os
 import numpy as np
 
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(os.path.dirname(currentdir))
-sys.path.append(parentdir)
-
 from dwipy.misc.sysHelper import sysHelpers
 
 class FuncHelpers:

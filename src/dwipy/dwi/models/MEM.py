@@ -2,11 +2,7 @@ import os
 import sys
 import numpy as np
 
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(os.path.dirname(currentdir))
-sys.path.append(parentdir)
-
-import dwipy.core.imageSrc as modelsSrc
+import dwipySrc as modelsSrc
 from dwipy.core.DWImage4D import DWImage4D
 from dwipy.core.image3D import Image3D
 

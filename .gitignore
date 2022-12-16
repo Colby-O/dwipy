@@ -1,6 +1,10 @@
 /**/build/
+/dist/
 /**/__pycache__
+*.so
+*.dylib
 *.nrrd
 *.nii.gz
+*.egg-info
 /examples/.ipynb_checkpoints
 .DS_Store

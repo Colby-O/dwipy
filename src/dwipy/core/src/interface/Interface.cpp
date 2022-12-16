@@ -66,7 +66,7 @@ extern "C" {
     };
 
     // Initializer function
-    PyMODINIT_FUNC PyInit_imageSrc(void) {
+    PyMODINIT_FUNC PyInit_dwipySrc(void) {
         return PyModule_Create(&Models);
     }
 

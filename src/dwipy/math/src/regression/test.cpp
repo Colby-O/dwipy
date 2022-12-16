@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-#include "dwipymath/include/regression/CurveFit.h"
+#include "dwipy/math/include/regression/CurveFit.h"
 
 // linspace from https://github.com/Eleobert/meth/blob/master/interpolators.hpp
 template <typename Container>
